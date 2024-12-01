@@ -9,6 +9,7 @@ public class Main {
             case 1 -> e1.attendance(true);
             default -> e1.attendance(false);
         }
+        e1.calculateWage();
     }
 }
 
